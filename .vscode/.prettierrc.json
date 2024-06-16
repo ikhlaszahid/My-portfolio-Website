@@ -1,0 +1,5 @@
+{
+    await prettier.format("foo ( );", { semi: false, parser: "babel" });
+// -> 'foo()\n'
+import * as prettier from "prettier";
+}
